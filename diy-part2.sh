@@ -17,4 +17,4 @@ sed -i "s/hostname='ImmortalWrt'/hostname='360T7'/g" package/base-files/files/bi
 #ddns-go
 git clone -b main https://github.com/sirpdboy/luci-app-ddns-go.git
 #alist
-git clone -b master --depth 1 https://github.com/sbwml/luci-app-alist.git
+# git clone -b master --depth 1 https://github.com/sbwml/luci-app-alist.git
