@@ -11,4 +11,10 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+sed -i "s/hostname='ImmortalWrt'/hostname='360T7'/g" package/base-files/files/bin/config_generate
+
+#ddns-go
+git clone -b main https://github.com/sirpdboy/luci-app-ddns-go.git
+#alist
+git clone -b master --depth 1 https://github.com/sbwml/luci-app-alist.git
